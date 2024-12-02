@@ -161,3 +161,14 @@
     color: #000000;
     background-color: #D9AE00;
 }
+
+#Footer-do-site {
+    padding: 20px;
+    color: white;
+    background-color: #0b0b0b;
+}
+
+#Footer-do-site > p {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}

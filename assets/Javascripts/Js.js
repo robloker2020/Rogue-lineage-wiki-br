@@ -8,3 +8,18 @@ function Menu() {
         itens.style.transform = 'translateX(0%)';
     }
 }
+
+function FtAnimado() {
+    const footer = document.getElementById('Footer-do-site');
+    const scrollPosition = window.innerHeight + window.pageYOffset;
+    const documentHeight = document.documentElement.scrollHeight;
+
+    if (scrollPosition >= documentHeight) {
+      footer.style.bottom = '0px'; 
+    } else {
+      footer.style.bottom = '-120px'; 
+    }
+  }
+
+  // Escuta o evento de rolagem
+  window.addEventListener('scroll', FtAnimado);

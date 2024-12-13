@@ -21,5 +21,4 @@ function FtAnimado() {
     }
   }
 
-  // Escuta o evento de rolagem
   window.addEventListener('scroll', FtAnimado);

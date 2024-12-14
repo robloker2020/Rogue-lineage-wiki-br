@@ -9,7 +9,7 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    background: url("../Imagens/conteudo-Modificado.png") no-repeat center center;
+    background: url("../Imagens/conteudo.png") no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
     max-width: 100%;

@@ -1,12 +1,14 @@
+/* Fontes do site */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sriracha&display=swap');
 
-
+/* Configuação global */
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
+/* Cabeçalho */
 #Cabeçalho {
     display: flex;
     flex-flow: row wrap;
@@ -69,12 +71,15 @@
     transition: color 0.1s ease;
 }
 
+/* Conteudo principal */
+
+/* Conteudo informativo */
 #Conteudo {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    background: url("../Imagens/conteudo-Modificado.png") no-repeat center center;
+    background: url("../Imagens/conteudo.png") no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
     max-width: 100%;
@@ -120,12 +125,20 @@
     text-decoration: underline;
 }
 
-#Conteudo-sobre > img {
+#Conteudo-sobre > a > img {
     width: 230px;
     border-radius: 10px;
     margin-bottom: 30px;
+    transition: 0.2s;
 }
 
+#Conteudo-sobre > a > img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+/* Conteudo de navegação */
 #Conteudo-Navegação {
     display: flex;
     flex-flow: column wrap;
@@ -152,7 +165,7 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    background-color: #0b0b0bad;
+    background-color: #595959;
     width: 120px;
     height: 120px;
     border-radius: 10px;
@@ -164,6 +177,58 @@
     background-color: #D9AE00;
 }
 
+/* Configuações das imagens da navegação */
+#cavalo {
+    background-color: blue;
+}
+
+#raças > abbr > img {
+    height: 120px;
+    width: 120px;
+}
+
+#classes > abbr > img {
+    text-align: center;
+    height: 75px;
+    width: 80px;
+}
+
+#poções > abbr > img {
+    height: 100px;
+    width: 100px;
+}
+
+#encantamento > abbr > img {
+    height: 120px;
+    width: 120px;
+}
+
+#armas > abbr > img {
+    width: 109px;
+    height: 90px;
+}
+
+#Missão > abbr > img {
+    width: 110px;
+    height: 95px;
+}
+
+#Subclass > abbr > img {
+    height: 120px;
+    width: 120px;
+}
+
+#Edict > abbr > img {
+    height: 120px;
+    width: 120px;
+}
+
+#Artefatos > abbr > img {
+    height: 120px;
+    width: 120px;
+}
+
+/* Configurações do footer */
 #Footer-do-site {
     padding: 20px;
     color: white;

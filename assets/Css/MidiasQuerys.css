@@ -20,19 +20,19 @@
 /* Conteudo do main */
 
 @media screen and (min-width: 430px) and (max-width: 640px) {
-    #Conteudo-sobre > img {
+    #Conteudo-sobre > a >img {
         width: 350px;
     }
 }
 
 @media screen and (min-width: 640px) and (max-width: 810px) {
-    #Conteudo-sobre > img {
+    #Conteudo-sobre > a > img {
         width: 420px;
     }
 }
 
 @media screen and (min-width: 810px) and (max-width: 2000px) {
-    #Conteudo-sobre > img {
+    #Conteudo-sobre > a > img {
         width: 500px;
     }
 }

@@ -112,6 +112,10 @@
 }
 
 #Conteudo-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
     margin-top: 120px;
     margin-bottom: 25px;
 }
@@ -169,61 +173,79 @@
     width: 120px;
     height: 120px;
     border-radius: 10px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.itens-escolha > img, p {
+    transition: opacity 0.4s ease;
+}
+
+.itens-escolha > img {
+    opacity: 100;
+}
+
+.itens-escolha > p {
+    font-family: cursive;
+    opacity: 0;
+}
+
+.itens-escolha > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .itens-escolha:hover {
-    transition: 0.5s;
+    transition: 0.5s ease;
+    transform: scale(1.05);
     color: #000000;
     background-color: #D9AE00;
 }
 
 /* Configuações das imagens da navegação */
-#cavalo {
-    background-color: blue;
-}
-
-#raças > abbr > img {
+#raças > img {
     height: 120px;
     width: 120px;
 }
 
-#classes > abbr > img {
-    text-align: center;
+#classes > img {
     height: 75px;
     width: 80px;
 }
 
-#poções > abbr > img {
+#poções > img {
     height: 100px;
     width: 100px;
 }
 
-#encantamento > abbr > img {
+#encantamento > img {
     height: 120px;
     width: 120px;
 }
 
-#armas > abbr > img {
+#armas > img {
     width: 109px;
     height: 90px;
 }
 
-#Missão > abbr > img {
+#Missão > img {
     width: 110px;
     height: 95px;
 }
 
-#Subclass > abbr > img {
+#Subclass > img {
     height: 120px;
     width: 120px;
 }
 
-#Edict > abbr > img {
+#Edict > img {
     height: 120px;
     width: 120px;
 }
 
-#Artefatos > abbr > img {
+#Artefatos > img {
     height: 120px;
     width: 120px;
 }

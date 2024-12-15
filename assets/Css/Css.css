@@ -42,12 +42,13 @@
     font-family: cursive;
     text-decoration: none;
     color: #ffffff;
-    transition: color 0.5s;
+    transition: 0.5s;
 }
 
 #Titulo-Cabeçalho:hover {
     color: #D9AE00;
-    transition: color 0.1s ease;
+    transition: 0.3s ease;
+    transform: scale(1.05);
 }
 
 #Navegação-Cabeçalho {
@@ -63,12 +64,12 @@
     font-family: cursive;
     text-decoration: none;
     color: #ffffff;
-    transition: color 0.5s ease;
+    transition: 0.5s ease;
 }
 
 #Navegação-Cabeçalho > li, a:hover {
     color: #D9AE00;
-    transition: color 0.1s ease;
+    transition: color 0.3s ease;
 }
 
 /* Conteudo principal */

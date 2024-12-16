@@ -60,14 +60,14 @@
     gap: 20px;
 }
 
-#Navegação-Cabeçalho > li, a {
+#Navegação-Cabeçalho > li > a {
     font-family: cursive;
     text-decoration: none;
     color: #ffffff;
     transition: 0.5s ease;
 }
 
-#Navegação-Cabeçalho > li, a:hover {
+#Navegação-Cabeçalho > li > a:hover {
     color: #D9AE00;
     transition: color 0.3s ease;
 }
@@ -170,7 +170,7 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    background-color: #595959;
+    background-color: #b4b4b4;
     width: 120px;
     height: 120px;
     border-radius: 10px;
@@ -247,6 +247,11 @@
 }
 
 #Artefatos > img {
+    height: 120px;
+    width: 120px;
+}
+
+#Magias > img {
     height: 120px;
     width: 120px;
 }

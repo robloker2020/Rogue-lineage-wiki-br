@@ -37,10 +37,10 @@
 }
     
 #Raças > h2 {
-    margin: 55px 1px 1px 1px;
+    margin: 55px 1px 10px 1px;
     font-size: 1.3em;
     line-height: 26px;
-    font-weight: normal;
+    font-weight: bold;
     font-family: cursive;
 }
 
@@ -50,6 +50,14 @@
     line-height: 26px;
     font-family: "Roboto", sans-serif;
 }
+
+#Raças > hr {
+    border: 0;
+    height: 3px;
+    border: none;
+  height: 2px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0));
+  }
 
 #tabela-scroll {
     overflow-x: auto;
@@ -96,4 +104,8 @@ td {
 .Controle-Img-Tamanho:hover {
     transform: scale(1.05);
     transition: 0.3s ease;
+}
+
+.Text-Imagens-Raças {
+    font-family: "Roboto", sans-serif;
 }

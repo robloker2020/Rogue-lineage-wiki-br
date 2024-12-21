@@ -29,6 +29,7 @@
     text-align: center;
     color: #ffffff;
     background-color: #141414;
+    box-shadow: -4px 4px 14px 1px #00000066;
 }
 
 #Creditos > h1 {

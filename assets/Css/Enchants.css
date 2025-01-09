@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#conteudo-enchant {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: url("../Imagens/conteudo.png") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#Enchant {
+    max-width: 1000px;
+    min-width: 50px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #141414;
+    padding-bottom: 35px;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.596);
+}
+
+#Enchant > h1 {
+    font-family: cursive;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px 20px 1px 1px;
+    background-color: #0b0b0b
+}
+
+#Enchant > h2 {
+    margin: 55px 1px 10px 1px;
+    font-size: 1.3em;
+    line-height: 26px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#Enchant > hr {
+    border: 0;
+    height: 3px;
+    border: none;
+    height: 2px;
+     background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0));
+  }
+
+#Enchant > p {
+    padding: 35px;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+}
+
+#Enchant > ul {
+    list-style-position: inside; 
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    padding: 1px 1px 20px 50px
+}
+
+#Enchant > ul > li {
+    padding: 20px 40px 1px 14px;
+    line-height: 25px;
+    text-indent: -20px;
+}
+
